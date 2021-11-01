@@ -1,0 +1,113 @@
+body{
+  text-align: center;
+  background-color: LightCyan;
+}
+
+.paris{
+  background-color: MintCream;
+  color:black;
+  border:2px solid black;
+  border-style: dotted;
+  margin: 20px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+h1{
+  color: DeepPink;
+  background-color: Lavender;
+  margin: 25px 600px;
+  font-family: 'Brush Script MT';
+  font-size: 100px;
+}
+h2{
+  color: HotPink;
+  font-family: "garamond", serif;
+}
+h3{
+  color: LightPink;
+  font-family: "courier new", monospace;
+}
+h4{
+  color:Magenta;
+}
+h5{
+  color:MediumVioletRed;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+h6{
+  color: PaleVioletRed;
+}
+h7{
+  color: Plum;
+}
+p{
+  color: Purple
+}
+p1{
+  color:DeepPink
+}
+table{
+  color: MediumSlateBlue;
+  width: 25%;
+  border-style: dotted;
+  border-color: SlateBlue;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+d1{
+  color:DarkSalmon;
+  text-align: left;
+}
+
+.button{
+  background-color: MintCream;
+  border-style: dashed;
+  border-color: Violet;
+  color: Violet;
+  padding: 15px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+img{
+    border-radius: 8px;
+}
+img.tay{
+  filter: saturate(1);
+}
+img.tay:hover{
+    transform: scaleX(-1);
+}
+img.chocolate{
+  filter: drop-shadow(8px 8px 10px DeepPink);
+  max-width: 25%;
+  height: auto;
+}
+img.elmo{
+  max-width: 100%;
+  height:auto;
+    filter:invert(100%);
+}
+img.elmo:hover{
+  transform: scaleX(-1);
+}
+
+iframe{
+  border: none;
+  border-style:solid;
+  border-radius: 1;
+  color: DeepPink;
+}
